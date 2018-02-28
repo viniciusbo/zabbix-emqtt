@@ -2,7 +2,7 @@
 
 # Installation
 
-1. Place `emqtt.sh` in Zabbiz external scripts folder, which typically is `/usr/lib/zabbix/externalscripts/`. See [Zabbix docs](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/external) if you're not sure.
+1. Place `emqtt.sh` in Zabbix external scripts folder, which typically is `/usr/lib/zabbix/externalscripts/`. See [Zabbix docs](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/external) if you're not sure.
 
     ```sh
     cd /usr/lib/zabbix/externalscripts # Or your external scripts path
