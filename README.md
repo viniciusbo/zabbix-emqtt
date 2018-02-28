@@ -1,8 +1,15 @@
 # Zabbix Monitoring for EMQTT
 
+# Requirements
+
+These dependencies are required to run the monitoring script:
+
+1. [Zabbix_sender](https://www.zabbix.com/documentation/3.0/pt/manual/concepts/sender)
+1. [Jq](https://stedolan.github.io/jq/)
+
 # Installation
 
-1. Place `emqtt.sh` in Zabbix external scripts folder, which typically is `/usr/lib/zabbix/externalscripts/`. See [Zabbix docs](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/external) if you're not sure.
+1. Place `emqtt.sh` in Zabbix server external scripts folder, which typically is `/usr/lib/zabbix/externalscripts/`. See [Zabbix docs](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/external) if you're not sure.
 
     ```sh
     cd /usr/lib/zabbix/externalscripts # Or your external scripts path
